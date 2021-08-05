@@ -1,0 +1,65 @@
+[
+    {
+        "id": "c1d0fe290f6dd9c7",
+        "type": "tab",
+        "label": "helloWorld",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "3dab2c76daf40524",
+        "type": "inject",
+        "z": "c1d0fe290f6dd9c7",
+        "name": "input",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "Hello World!",
+        "payloadType": "str",
+        "x": 110,
+        "y": 120,
+        "wires": [
+            [
+                "7ac55b654b8cce1e"
+            ]
+        ]
+    },
+    {
+        "id": "504322ea1a8257ad",
+        "type": "comment",
+        "z": "c1d0fe290f6dd9c7",
+        "name": "Version: 20210803-1755",
+        "info": "",
+        "x": 140,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "7ac55b654b8cce1e",
+        "type": "debug",
+        "z": "c1d0fe290f6dd9c7",
+        "name": "output",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 210,
+        "y": 220,
+        "wires": []
+    }
+]
